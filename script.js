@@ -13,5 +13,5 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 if (performance.getEntriesByType('navigation')[0]?.type === 'reload') {
-    window.location.href = '/'; // Redireciona para a página inicial apenas no reload
+    window.location.href = '/index.html'; // Redireciona para a página inicial apenas no reload
   }
