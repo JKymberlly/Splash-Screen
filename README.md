@@ -6,7 +6,7 @@
 
 </div>
 
-<h1>Introducion</h1>
+<h1>introduction</h1>
 
 A simple project that took a while to complete, where I detail in Portuguese how to make a Slash Screen.
 
