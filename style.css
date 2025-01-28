@@ -87,6 +87,7 @@ body.content-loaded #content{
 li, a{
     position: relative;
     right: 18px;
+    padding: 10px;
 }
 li, a:hover{
     color: rgb(255, 171, 103);
