@@ -81,8 +81,8 @@ body.content-loaded #content{
     text-decoration: none;
     color: white;
     list-style: none;
-    font-size: 25px;
     padding: 10px;
+    font-size: 25px;
 }
 li, a{
     position: relative;
