@@ -12,6 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
  }, 2000);
 });
 
-if (performance.getEntriesByType('navigation')[0]?.type === 'reload') {
-    window.location.href = 'index.html'; // Redireciona para a página inicial apenas no reload
+/*(performance.getEntriesByType('navigation')[0] varifica como o usuario chegou até a página,*/
+
+if (performance.getEntriesByType('navigation')[0]?.type === 'reload') { 
+   /*?.type: - caso não exista informação, ele garante que o código não quebre*/
+   /*=== 'reload' - checa se o tipo de navegação foi um reload*/
+    window.location.href = 'index.html'; // se a informação for verdadeira ele retorna ao index.html da página
   }
