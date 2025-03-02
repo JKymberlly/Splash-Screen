@@ -19,3 +19,4 @@ if (performance.getEntriesByType('navigation')[0]?.type === 'reload') {
    /*=== 'reload' - checa se o tipo de navegação foi um reload*/
     window.location.href = 'index.html'; // se a informação for verdadeira ele retorna ao index.html da página
   }
+
