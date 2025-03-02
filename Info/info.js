@@ -1,4 +1,4 @@
-const audio = new Audio('audio/pew.mp3');
+const audio = new Audio('../audio/pew.mp3');
 const pew = document.getElementById('pew');
 
 function tocar(){
