@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    background-color: black;
+    font-family: "Josefin Sans", serif;
+}
+#pessoal{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    animation: moverparadireita 1s ease-out 1 forwards;
+}
+@keyframes moverparadireita{
+    0%{
+        transform: translateX(-40px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(50px);
+        opacity: 1;
+    }
+}
+.separador{
+    width: 1px;
+    height: 1080px;
+    background-color: white;
+    position: relative;
+    left: 10%;
+}
+#icon-info{
+    position: relative;
+    left: 12%;
+    bottom: 350px;
+    height: 200px;
+    border-radius: 2%;
+}
+p{
+    color: white;
+    transition: 1s linear;
+    cursor: default;
+}
+p:hover{
+    color: rgb(160, 160, 255);
+
+}
+.minhas-info{
+    position: relative;
+    left: 39px;
+    bottom: 150px;
+    font-size: 20px;
+}
+.linguagens{
+    height: 120px;
+    position: relative;
+    left: 100px;
+    padding-top: 20px;
+    cursor: default;
+}
+.linguagens img{
+    height: 100px;
+    transition: 0.6s linear;
+}
+.objetos{
+    position: relative;
+    right: 15%;
+    bottom: 300px;
+    font-size: 20px;
+}
+.linguagens img:hover{
+    height: 120px;
+}
+.aiko{
+    position: relative;
+    top: 600px;
+    right: 220px;
+}

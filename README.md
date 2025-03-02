@@ -16,7 +16,3 @@ I'm starting simple projects with JavaScript. Being a beginner in programming, I
 > Link: https://jkymberlly.github.io/Splash-Screen/
 <br>
 
-<div align="center">
-  
-![](https://img.shields.io/badge/completed-ffa896?style=for-the-badge&Color=ffffff)
-</div>
