@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body, html{
     margin: 0; /*forma de reset da tela*/
@@ -46,9 +47,12 @@ body, html{
     visibility: hidden;
 }
 #logo{
-    width: 150px; /*tamanho da fonte*/
-}
+    width: 500px; /*tamanho da fonte*/
 
+}
+span{
+    font-family: "Open Sans", sans-serif;
+}
 #content{
     /* O conteudo da página principal começa oculto*/
     display: none;
@@ -98,8 +102,7 @@ li, a:hover{
 }
 #gif{
     position: relative;
-    left: 15%;
-    height: 60vh;
+    left: 30%;
     bottom: 120px;
     border: 1px solid white;
     animation: moveforright 1s ease-out 1 forwards;
